@@ -1,0 +1,63 @@
+Git немодифицируемая распределенная система котроля версий (почти не удаляет)
+
+Registr
+git config --global user.name "rrrrr"
+git config --global user.email "eeee.ttr"
+
+Repository Git
+mkdir ~/shad/repo
+cd ~/shad/repo
+git init
+ls -a
+
+Clone:
+cd ~/shad
+git clone <....link..GUI..repo.git> 
+
+Process
+Working Dir --(git add)-> Staging area --(commit)->Repository
+Files:
+Untracked   Unmodified    Modified   Staged
+  |-------(add)------------------------->|
+		|---(edit)-->|--(stage)->|
+  |<--(remove)--|<--chekout--|<-(reset)--| 
+                |<----(commit)-----------|         
+
+git status
+Stage:  git add <ff>
+Commit: git commit -m
+Reset: git reset HEAD <ffff>
+Chechout: git checkout --<ffff> Undo changes
+
+# .gitignore
+.obj
+
+touch test.dll  (Add new file)
+echo "*.dll" > .gitignore  (Ignore any dll)
+
+git log (see commit messages, date)
+
+GitLab, GitHib, Bitbucket - Хостинги репозиторий
+git remote -v
+(origin - ref to git link)
+
+git push origin 
+    -> Sends local commits to remote server (can be unmerge paths)
+1)git pull origin 
+    <- Gets the last version from remote to local
+2) git status : 
+cat <...file>
+<<<< HEAD  (local)
+>>>>> ( GUID git commint)
+
+To resolve: update file,
+3) git add <filename>
+4) git commit -m <message>
+5) git push 
+
+Set alias upstream
+git remote -v  (diplays remote repo)
+git remote add upstream <ggit ref>
+
+git pull upstream (get new files to local)
+git push upstream (sent my files to repo)
