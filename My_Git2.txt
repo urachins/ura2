@@ -2,6 +2,7 @@
 Ver2 aaa rvy
 Git немодифицируемая распределенная система котроля версий (почти не удаляет)
 
+Master line
 
 Registr
 git config --global user.name "rrrrr"
