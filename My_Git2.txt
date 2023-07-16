@@ -1,7 +1,7 @@
 11111   222
 Git немодифицируемая распределенная система котроля версий (почти не удаляет)
 Third line for master branch (3)
-Git 4-th (Ver2) //Add comment in 4
+Git 4-th (Ver2) //
 
 Master line
 
