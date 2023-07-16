@@ -1,5 +1,6 @@
 11111   222
 Git немодифицируемая распределенная система котроля версий (почти не удаляет)
+Third line for master branch (3)
 
 Master line
 
@@ -11,7 +12,6 @@ Repository Git
 mkdir ~/shad/repo
 cd ~/shad/repo
 git init
-ls -a
 
 Clone:
 cd ~/shad
