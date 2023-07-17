@@ -5,7 +5,6 @@ Git 4 th
 Git 5 Line
 
 
-
 Master line
 
 Registr
@@ -16,7 +15,6 @@ Repository Git
 mkdir ~/shad/repo
 cd ~/shad/repo
 git init
-ls -a
 
 Clone:
 cd ~/shad
